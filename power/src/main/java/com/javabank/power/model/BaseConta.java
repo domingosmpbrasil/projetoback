@@ -13,7 +13,7 @@ private int agencia;
 private int tipo;
 @Column(name = "saldo")
 private double saldo;
-@Column(name = "titular")
+@Column(name = "titular", length = 50)
 private String titular;
 public int getNumero() {
 	return numero;
@@ -36,8 +36,8 @@ public void setTipo(int tipo) {
 public double getSaldo() {
 	return saldo;
 }
-public void setSaldo(double saldo) {
-	this.saldo = saldo;
+public void setSaldo(double d) {
+	this.saldo = d;
 }
 public String getTitular() {
 	return titular;
