@@ -1,10 +1,10 @@
-package com.fraternalbankofpower.society;
+package com.javabank.power;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SocietyApplicationTests {
+class PowerApplicationTests {
 
 	@Test
 	void contextLoads() {

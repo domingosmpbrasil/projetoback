@@ -1,13 +1,13 @@
-package com.fraternalbankofpower.society;
+package com.javabank.power;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SocietyApplication {
+public class PowerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SocietyApplication.class, args);
+		SpringApplication.run(PowerApplication.class, args);
 	}
 
 }
