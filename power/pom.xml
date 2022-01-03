@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.2-SNAPSHOT</version>
+		<version>2.3.9.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.fraternalbankofpower</groupId>
-	<artifactId>society</artifactId>
+	<groupId>com.javabank</groupId>
+	<artifactId>power</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>society</name>
-	<description>Projeto BACKEND  para demonstrar os conhecimentos obtidos no treinamento da Gama ACADEMY.</description>
+	<name>power</name>
+	<description>criação de um projeto para recuperação de contas utilizando Linguagem Java e banco de dados MySQL</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -52,41 +52,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<repositories>
-		<repository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/snapshot</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<pluginRepository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/snapshot</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</pluginRepository>
-	</pluginRepositories>
 
 </project>
